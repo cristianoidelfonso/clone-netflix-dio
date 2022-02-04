@@ -51,6 +51,11 @@ header nav a {
   justify-content: center;
   align-items: flex-start;
   padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.main-movie .container {
+  width: 65%;
 }
 
 .main-movie .title {
@@ -61,14 +66,39 @@ header nav a {
 .main-movie .description {
   line-height: 1.3;
   text-align: justify;
-  width: 60%;
 }
 
 .buttons {
   margin-top: 4rem;
+  width: 40%;
 }
 
 .btn {
+  background-color: rgba(0, 0, 0, .5);
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 1rem;
+  margin-right: .5rem;
+  color: #FFF;
+  border: none;
+  width: 199px;
+  height: 50px;
+  padding: .5rem;
+  margin-top: .5rem;
   cursor: pointer;
-  padding: .3rem .7rem;
+  border-radius: .3rem;
+  transition: .5s ease all;
+}
+
+.btn:hover {
+  background-color: var(--red);
+}
+
+.btn i {
+  margin-right: .5rem;
+}
+
+.box-movie {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
